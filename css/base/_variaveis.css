@@ -1,0 +1,14 @@
+:root {
+    --vinho: #8E2424;
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --cinza-escuro: #3A404E;
+    --preto: #101828;
+    --preto-transparente: #0000000F;
+
+    --familia-corpo: "Inter" , sans-serif;
+
+    --peso-texto: 400;
+    --peso-destaque: 500;
+    --peso-titulo-destaque: 600;
+}

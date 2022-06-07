@@ -1,0 +1,88 @@
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    font-family: var(--familia-corpo);
+    text-align: center;
+}
+
+.vagas__container--profissoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 275px;
+    gap: 24px;
+
+}
+
+.vagas__titulo{
+    font-weight: var(--peso-destaque);
+    font-size: 14px;
+
+    padding: 10px;
+
+    color: var(--vinho);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+
+.vagas__titulo--profissoes {
+    font-weight: var(--peso-destaque);
+    font-size: 20px;
+    line-height: 30px;
+
+    color: var(--preto);
+}
+
+.vagas__subtitulo {
+    font-weight: var(--peso-titulo-destaque);
+    font-size: 36px;
+
+    padding-bottom: 20px;
+
+    color: var(--preto);
+}
+
+.vagas__subtitulo--texto {
+    font-weight: var(--peso-destaque);
+    font-size: 18px;
+
+    text-align: left;
+
+    padding: 0 24px;
+    margin: 0.5rem;
+
+    color: var(--preto);
+}
+
+.vagas__texto {
+    font-weight: var(--peso-texto);
+    font-size: 20px;
+
+    padding-bottom: 64px;
+
+    color: var(--cinza);
+}
+
+.vagas__texto--info {
+    font-weight: var(--peso-destaque);
+    font-size: 16px;
+    line-height: 24px;
+
+    padding: 24px 24px 28px;
+    margin: 0.5rem;
+    gap: 24px;
+
+    color: var(--cinza);
+}
+
+.vagas__espacamento {
+    width: 768px;
+    height: 136px;
+
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}

@@ -1,0 +1,43 @@
+.metrica__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 80px 40px 80px;
+    gap: 32px;
+
+    font-family: var(--familia-corpo);
+}
+
+.metrica__container--espacamento {
+    padding: 0 32px;
+}
+
+
+div span {
+    font-weight: var(--peso-titulo-destaque);
+    font-size: 60px;
+    line-height: 72px;
+
+    padding-bottom: 12px;
+
+    color: var(--vinho);
+}
+
+div h2 {
+    font-weight: var(--peso-destaque);
+    font-size: 18px;
+    line-height: 28px;
+
+    padding-bottom: 8px;
+
+    color: var(--preto);
+}
+
+div p {
+    font-weight: var(--peso-texto);
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: var(--cinza);
+}

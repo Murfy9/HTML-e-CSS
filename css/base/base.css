@@ -1,0 +1,11 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+.botao__cadastrar {
+    padding: 10px 18px;
+
+    color: var(--branco);
+    background-color: var(--vinho);
+
+    border-radius: 10px;
+}
